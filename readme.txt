@@ -16,5 +16,7 @@ Database of the project is created via json-server. So you must install json-ser
 -install json-server with this command -> npm install -g json-server
 -When installation is completed, enter the following command to start your json-server database: json-server --watch db.json 
 
+or you can check: https://github.com/typicode/json-server
+
 
 
