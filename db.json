@@ -1,0 +1,136 @@
+{
+  "class": [
+    {
+      "id": 1,
+      "title": "9-A"
+    },
+    {
+      "title": "9-B",
+      "id": 2
+    },
+    {
+      "title": "9-C",
+      "id": 3
+    },
+    {
+      "title": "9-D",
+      "id": 4
+    },
+    {
+      "title": "10-C",
+      "id": 5
+    }
+  ],
+  "course": [
+    {
+      "id": 1,
+      "title": "Math"
+    },
+    {
+      "id": 2,
+      "title": "Turkish"
+    },
+    {
+      "id": 3,
+      "title": "English"
+    },
+    {
+      "title": "French",
+      "id": 5
+    }
+  ],
+  "student": [
+    {
+      "id": 1,
+      "name": "Ali",
+      "surname": "Varol",
+      "age": 14,
+      "class": {
+        "id": 1,
+        "title": "9-A"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Ayşe",
+      "surname": "Yılmaz",
+      "age": 14,
+      "class": {
+        "title": "9-B",
+        "id": 2
+      }
+    },
+    {
+      "id": 3,
+      "name": "Semih",
+      "surname": "Uygarrr",
+      "age": 14,
+      "class": {
+        "id": 1,
+        "title": "9-A"
+      }
+    },
+    {
+      "class": {
+        "title": "9-C",
+        "id": 3
+      },
+      "name": "Semih",
+      "surname": "Çetin",
+      "age": 14,
+      "id": 5
+    },
+    {
+      "class": {
+        "title": "10-C",
+        "id": 5
+      },
+      "name": "Doğan",
+      "surname": "Ünsal",
+      "age": 15,
+      "id": 6
+    }
+  ],
+  "teacher": [
+    {
+      "id": 1,
+      "name": "Umut",
+      "surname": "Benli",
+      "age": 48,
+      "course": {
+        "id": 2,
+        "title": "Turkish"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Uygar",
+      "surname": "Lale",
+      "age": 30,
+      "course": {
+        "id": 3,
+        "title": "English"
+      }
+    },
+    {
+      "course": {
+        "id": 1,
+        "title": "Math"
+      },
+      "name": "Serkan",
+      "surname": "Yazıcı",
+      "age": 35,
+      "id": 3
+    },
+    {
+      "course": {
+        "title": "French",
+        "id": 5
+      },
+      "name": "Ahmet",
+      "surname": "Gür",
+      "age": 50,
+      "id": 4
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+<h1>{{Course.title}}</h1>
+
+<div class="table-responsive-md">
+    <table class="table">
+       <thead>
+           <tr>
+               <th scope="col">Name</th>
+               <th scope="col">Surname</th>
+               <th scope="col">Age</th>
+           </tr>
+       </thead>
+       <tbody>
+           <tr ng-repeat="teacher in Teachers">
+                <th>{{teacher.name}}</th>
+                <th>{{teacher.surname}}</th>
+                <th>{{teacher.age}}</th>
+           </tr>
+       </tbody>
+    </table>
+  </div>

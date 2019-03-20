@@ -1,0 +1,28 @@
+<h1>Course List</h1>
+
+<div class="table-responsive-md">
+    <table class="table">
+       <thead>
+           <tr>
+               <th scope="col">ID</th>
+               <th scope="col">Title</th>
+               <th scope="col">Number of Teachers</th>
+               <th scope="col"></th>
+           </tr>
+       </thead>
+       <tbody>
+           <tr ng-repeat="course in Courses">
+                <th>{{course.id}}</th>
+                <th>{{course.title}}</th>
+                <th>{{course.teacherCount}}</th>
+                <th>
+                    <button  id="{{course.id}}" type="button" class="btn btn-warning" ng-click="ShowTeacherList(course.id)">List</button>
+                    <button  id="{{course.id}}" type="button" class="btn btn-info" ng-click="EditCourse(course.id)">Edit</button>
+                </th>
+           </tr>
+       </tbody>
+    </table>
+    <div class="row justify-content-md-center">
+        <button type="button" class="btn btn-primary col-md-4" ng-click="AddNewCourse()">Add New Course</button>
+    </div>
+  </div>
